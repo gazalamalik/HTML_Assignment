@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>signup form!</title>
+    <style>
+
+      html{
+        font-size: 62.5%;
+      }
+       
+       form{
+        text-align: center;
+           width: 590px;
+           height: 500px;
+           border:  20 50px;
+           background-color: pink;
+           font-size: 20;
+       }
+      
+
+      button {
+          background-color:grey;
+          color: black;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+     }
+
+      .wrapper {
+          margin: 0 auto 0 410px;
+        
+      }
+      
+      .container {
+         padding: 16px;
+       }
+
+        @media only screen and (min-width: 1000px){
+
+          html{
+
+          }
+ 
+}
+
+    </style>
+  </head>
+
+<body>
+  <div class="wrapper">
+
+  <form action="index2.html" style="border:1px solid #ccc">
+  <div class="container">
+       <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr><br>
+
+           <label for="email"><b>Email</b></label>
+           <input type="text" placeholder="Enter Email" name="email" required><br><br>
+
+           <label for="psw"><b>Password</b></label>
+           <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+
+           <label for="psw-repeat"><b>Retype Password</b></label>
+           <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br><br>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me!
+    </label>
+
+       <p>please agree our <a href="#" style="color:dodgerblue">Terms & Privacy</a></p>
+
+    <div class="button-b">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn" action ="index.html">Sign Up</button>
+    </div>
+  </div>
+
+</form>
+</body>
+</html>

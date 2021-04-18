@@ -1,0 +1,56 @@
+h1{
+    
+	color: #f3f3f3;
+	font-size: 90px;
+	margin: 0px;
+	text-align: center;
+	background-color: black;
+
+
+
+}
+.A { 
+	font-size: 50px;
+	color:red;
+	text-align: left;
+	margin: 0px;
+	background-color: blue;
+
+}
+
+.B { 
+	font-size: 50px;
+	color:green;
+	text-align: left;
+	margin: 0px;
+	background-color:purple;
+
+}
+.C { 
+	font-size: 50px;
+	color:orange;
+	text-align: left;
+	margin: 0px;
+	background-color:cyan;
+
+}
+.D { 
+	font-size: 50px;
+	color:#f3f3f3;
+	text-align: left;
+	margin: 0px;
+	background-color: magenta;
+
+}
+.E { 
+	font-size: 50px;
+	color:yellow;
+	text-align: left;
+	margin: 0px;
+	background-color: violet;
+
+}
+
+body {
+	background-color: pink;
+}
